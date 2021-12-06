@@ -1,0 +1,7 @@
+<p><%= @user.first_name %> <%= @user.last_name %></p>
+<p><%= @user.email %></p>
+<div style="display: flex">
+  <%= link_to 'Back', users_path, class: "btn btn-primary" %>
+  <%= link_to 'Edit', users_path, class: "btn btn-secondary" %>
+  <%= link_to 'Delete', users_path, class: "btn btn-danger" %>
+</div>

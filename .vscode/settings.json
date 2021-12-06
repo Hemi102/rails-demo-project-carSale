@@ -1,0 +1,35 @@
+{
+    "workbench.colorTheme": "Shades of Purple",
+    "editor.tabSize": 2,
+    "ruby.codeCompletion": "rcodetools",
+    "ruby.intellisense": "rubyLocate",
+    "ruby.lint": { "rubocop": false, "ruby": false, "ruby-lint": false, "reek": false, "debride": false, "fasterer": false, "standard": false },
+    "editor.renderWhitespace": "all",
+    "files.trimTrailingWhitespace": false,
+    "explorer.autoReveal": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "html.format.endWithNewline": true,
+    "html.format.indentInnerHtml": true,
+    "files.autoSave": "onWindowChange",
+    "files.associations": {
+        "*.html.erb": "html"
+     },
+    "emmet.includeLanguages": {
+        "erb": "html"
+    },
+    "problems.autoReveal": false,
+    "problems.decorations.enabled": false,
+    "outline.problems.badges": false,
+    "outline.problems.colors": false,
+    "outline.problems.enabled": false,
+    "[json]": {
+    
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "launch": {
+    
+    
+        "configurations": [],
+        "compounds": []
+    },
+}
