@@ -12,6 +12,13 @@ class UsersController < ApplicationController
     @user=User.find(params[:id])
     if(@user.save)
       redirect_to @user
+    else 
+      render 'edit'
     end
+  end
+  def destroy
+    @user = User.find(params[:id])
+    @user.destroy
+    redirect_to users_path
   end
 end
